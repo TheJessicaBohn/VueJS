@@ -5,7 +5,8 @@
 
 ## O que é Vue.js?
 - Vue é um framework progressivo(se já existir uma aplicação server-side, pode-se conectar o vue, em apenas uma parte da aplicação) para a construção de interfaces de usuário, ou seja aplicações front-end;
-- Como um Framework o Vue permite que seja separado em componentes reutilizáveis
+- Como um Framework o Vue permite que seja separado em componentes reutilizáveis;
+- Seu Criador é Evan You
 - Sua biblioteca principal é focada exclusivamente na (view layer), camada visual da aplicação.
 
 ### Vantagens:
