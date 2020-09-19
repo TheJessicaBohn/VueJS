@@ -22,7 +22,7 @@
 
 ### Dicas:
 - Use e abuse de teclas de atalho:
-  - No JSFiddle por exemplo um `div#app` com tab vira ```html <div id="app"></div>```
+  - No JSFiddle por exemplo um `div#app` com tab vira ```<div id="app"></div>```
   - `p` tab se torna ```<p> </p> ```
 
 
