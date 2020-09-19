@@ -16,3 +16,16 @@
 - Arquivos leves para a aplicação;
 - contém o melhor do React e do Angular no mesmo Framework;
 - Caso necessite de uma Lógica de negócio desde o início, o Vue possui as bibliotecas oficiais e o ecossistema escaláveis
+
+### Ferramentas utilizadas:
+- No próprio navegador o JSFiddle https://jsfiddle.net/ um compilador online;
+
+### Dicas:
+- Use e abuse de teclas de atalho:
+  - No JSFiddle por exemplo um `div#app` com tab vira ```html 
+  <div id="app"></div>
+  ```
+  - `p` tab se torna ```html <p> </p> ```
+
+
+
