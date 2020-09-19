@@ -18,9 +18,12 @@
 - Caso necessite de uma Lógica de negócio desde o início, o Vue possui as bibliotecas oficiais e o ecossistema escaláveis
 
 ### Ferramentas utilizadas:
-- No próprio navegador o JSFiddle https://jsfiddle.net/ um compilador online;
+- No navegador o JSFiddle https://jsfiddle.net/ um compilador online;
+- No Computador utilizo o Visual Studio Code https://code.visualstudio.com/;
+
 
 ### Dicas:
+- A documentação é sua amiga, alguma duvida sobre a escrita? Consulte a documentação;
 - Use e abuse de teclas de atalho:
   - No JSFiddle por exemplo um `div#app` com tab vira ```<div id="app"></div>```
   - `p` tab se torna ```<p> </p> ```
