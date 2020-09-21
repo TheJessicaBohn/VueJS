@@ -19,6 +19,7 @@
 
 ### Ferramentas utilizadas:
 - No navegador o JSFiddle https://jsfiddle.net/ um compilador online;
+- Instalçaão do Vue https://br.vuejs.org/v2/guide/installation.html
 - No Computador utilizo o Visual Studio Code https://code.visualstudio.com/;
 
 
