@@ -1,8 +1,10 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <div id="app">
-  <p>{{ titulo }}</p>
+  <p v-once>{{ titulo }}</p>
   <p>{{ saudacao() }}</p>
   <a v-bind:href="link">VueJS</a>
+  <hr>
+  <p v-html="linkHtml"></p>
 </div>
 
 <script>
@@ -10,11 +12,12 @@
     el: '#app',
     data: {
       titulo: 'Testando Vue JS pela primeira vez',
-      link: 'https://github.com/TheJessicaBohn/VueJS'
+      link: 'https://github.com/TheJessicaBohn/VueJS',
+      linkHtml: '<a href="https://github.com/TheJessicaBohn/VueJS">VueJS</a>'
     },
     methods: {
       saudacao: function () {
-        console.log(this)
+        this.titulo = 'Teste'
         return this.titulo
       }
     }
