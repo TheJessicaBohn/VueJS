@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <div id="app"> 
-  <input type="text">
+  <input type="text" v-on:input="alterarTitulo">
   <p>{{ titulo }}</p>
 </div>
 
@@ -16,5 +16,5 @@
 
     }
   }
-}
+})
 </script>
