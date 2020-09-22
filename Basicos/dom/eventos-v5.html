@@ -1,0 +1,48 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="app">
+  <p>{{ contador1}}</p>
+  <p>{{ contador2}}</p>
+  <button v-on:click="somar(5, $event)">Somar 1</button>
+  <p v-on:mousemove="atualizarXY">Mouse: {{x}} e {{y}}
+    <span v-on:mousemove="parar">Parar aqui!</span>
+    <br> <br> <br> <br> <br> <br> <br>
+    <span v-on:mousemove.stop="">ou pode-se usar esse sem a função criada</span>
+  </p>
+  <a v-on:click.prevent="" href="https://github.com/TheJessicaBohn/VueJS">VueJS</a><br>
+  <a v-on:click.prevent="naoNavegar" href="https://github.com/TheJessicaBohn/VueJS">VueJS ou então essa opção</a><br>
+  <input type="text" v-on:keyup.enter="exibirAlerta" value="alerta aparece com o enter">
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      contador1: 0,
+      contador2: '0',
+      x: 0,
+      y: 0,
+    },
+    methods: {
+      somar(passo, event) {
+        console.log(passo, event)
+        this.contador1 += passo
+        this.contador2 += passo
+      },
+      atualizarXY() {
+        console.log(event)
+        this.x = event.clientX
+        this.y = event.clientY
+
+      },
+      parar(event) {
+        event.stopPropagation()
+      },
+      naoNavegar(event) {
+        event.preventDefault()
+      },
+      exibirAlerta() {
+        alert('Oi, isso é um alerta!')
+      },
+    }
+  })
+</script>
