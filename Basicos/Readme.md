@@ -20,7 +20,7 @@
 - `()` função
 - `{}` objeto
 - `{{}}` interpolado do Vue para o html, porém é sempre interpretado como string
--`clientX` ou `clientY` está por padão dentro de v-on:mousemove e contem os valores de X e Y, geralmente utilizado para retornar os valores separados dos mesmos
+- `clientX` ou `clientY` está por padão dentro de v-on:mousemove e contem os valores de X e Y, geralmente utilizado para retornar os valores separados dos mesmos
 - `console.log(this)`representa a instanciado Vue, e mostra as informações do console no navegador
 - `data:`dados, não se pode ter uma função e um dado com exatamente o mesmo nome.
 - `el:` controle de elementos
