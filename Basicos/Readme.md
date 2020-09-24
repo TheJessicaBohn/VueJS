@@ -9,6 +9,8 @@
 - **[eventos-v4.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v4.html)** adiciona um `<span>` eu para o funcionamento de captura das coordenadas do mouse quando se passa pela area da frase escrita, além disso apresenta `v-on:click.prevent` `.stop`.
 - **[eventos-v5.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v5.html)** adiciona um alerta ao precionar teclas no input
 - **[interpolacao.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/interpolacao.html)** demonstra a interpolacão no html em `{{ contador * 2}}`, em`{{ contador > 10 ? 'Maior do que 10': 'Menor que 10'}}` com um if/else implicíto. Pode-se interprepolar expressões de até uma lina
+- **[propriedades-reativas-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v1.html)** adiciona a diretiva `v-model`
+- **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** faz um metodo que diz se  valor do coontador é maior mou enor que 5
 - **[template-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v1.html)** faz com que o html utilize o atributo titulo dentro do `<script>` do Vue como padrão e seja o mostrado na pagina.
 - **[template-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v2.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return.
 - **[template-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v3.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return this.titulo, onde a saudacao acessa o titulo
@@ -38,6 +40,7 @@
 - `target.value` atribui um valor a um atributo ou variavél
 - `v-bind:href="link"` temos a diretiva que aponta para o link dentro do Vue que queremos acessar, sendo uma propriedade do html
 - `v-html` interpreta o html diretamente
+- `v-model=` faz o chamado Two-Way-Binding ou seja substitui duas diretivas a `v-bind` `v-on:input="titulo= $event.target.value"`
 - `v-on:` é uma diretiva do Vue que trata varios tipos de eventos:
 	- `v-on:click` eventos de click do mouse
 		- `v-on:click.prevent` para o comportamento padrão da chamada de função
