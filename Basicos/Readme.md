@@ -5,6 +5,8 @@
 #### :open_file_folder: dom
 - **[estilo-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/estilo-v1.html)** apresenta um exemplo de aplicação de `<style>` do CSS onde se clica em um quadrado e ele muda de cor.
 - **[estilo-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/estilo-v2.html)** apresenta um exemplo de aplicação de `<style>` do CSS onde se aplica mais de uma cor ao click, com o `computed` no script.
+- **[estilo-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v1.html)** apresenta um exemplo de aplicação de `<style>` do CSS onde se adiciona a opção de escolher a cor por meio de um input e girar a div
+- **[estilo-v4.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v4.html)** adiciona um input para mudar a largura e no outro já existente dá a opção de escrever as cores, desde que sejam em ingles, para mudar as cores dos quadrados
 - **[eventos-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v1.html)** evento com a diretiva `v-on`, onde um button acrescenta a um contador repare que um é numero e o outro sring.
 - **[eventos-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v2.html)** adiciona a diretiva `v-on:mousemove=""`, para mostrar as coordenadas do mouse.
 - **[eventos-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v3.html)** adiciona a vizualização de um event no console.log e o button acrescenta a um contador repare que um é numero e o outro sring.
@@ -28,6 +30,9 @@
 #### :open_file_folder: dom/desafio-03
 - **[app.js:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/desafio-03/app.js)** faz a parte do script do index.html.
 - **[index.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/desafio-03/index.html)** desafio com as solicitações na própria pagina.
+#### :open_file_folder: dom/desafio-04
+- **[app.js:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/desafio-04/app.js)** faz a parte do script do index.html.
+- **[index.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/desafio-04/index.html)** desafio com as solicitações na própria pagina.
 
 ### :book: Dicionário
 - `=` recebe
