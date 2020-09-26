@@ -16,6 +16,8 @@
 - **[propriedades-reativas-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v1.html)** adiciona a diretiva `v-model`
 - **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** faz um metodo que diz se  valor do coontador é maior mou enor que 5
 - **[sintaxe-reduzida.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/sintaxe-reduzida.html)** apresenta a substituição do `v-on:` por `@` `v-bind:` por `:`
+- **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** apresenta as propriedades computadas `computed`
+- **[propriedades-reativas-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v3.html)** apresenta a propriedade `watch` e `setTimeout`
 - **[template-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v1.html)** faz com que o html utilize o atributo titulo dentro do `<script>` do Vue como padrão e seja o mostrado na pagina.
 - **[template-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v2.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return.
 - **[template-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v3.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return this.titulo, onde a saudacao acessa o titulo
@@ -41,6 +43,7 @@
 - `{{}}` interpolado do Vue para o html, porém é sempre interpretado como string
 - `clientX` ou `clientY` está por padão dentro de v-on:mousemove e contem os valores de X e Y, geralmente utilizado para retornar os valores separados dos mesmos
 - `console.log(this)`representa a instanciado Vue, e mostra as informações do console no navegador
+- `computed:` serve para não gerar impacto nas propriedades computadas, ou seja não tem gasto de recurso quando chama um atributo que esta fora da função, isso pode ser visto em **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** quando algo está inserido nele é chamado como um atributo, e não como uma função
 - `data:`dados, não se pode ter uma função e um dado com exatamente o mesmo nome.
 - `el:` controle de elementos
 - `event` evento
@@ -62,7 +65,8 @@
 - `v-on:mousemove=""` obtem os valores das coordenadas de x e y do movimento do mouse
 	- `v-on:mousemove.stop` para o de obter os valores das coordenadas de x e y do movimento do mouse
 - `v-once` é uma diretiva que solicita que o valor seja lido apenas uma vez não importa quantas vezes o valor é trocado como na linha `this.titulo = 'Teste'`, além disso ajuda a economizar recursos
-
+- `setTimeout(()=>{` depois de um tempo estipulado ele faz uma ação
+- `watch` serve par o monitoramento de um atributo, nele tem que se dizer exatamente qual é a o nome da propriedade que se deseja monitorar como em - **[propriedades-reativas-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v3.html)** 
 
 ### :bookmark_tabs: Termos
 - **Diretivas :** são propriedades interpretadas pelo Vue, as mesmas podem ser criadas ou pode-se utilizar as já disponibilizadas pelo framework.
