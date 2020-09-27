@@ -24,3 +24,12 @@
 .direita{
 	float: right;
 }
+.barra-progresso{
+	height: 30px;
+	width: 500px;
+	border: 1px solid black;
+}
+.progresso{
+	background-color: green;
+	height: 100%;
+}

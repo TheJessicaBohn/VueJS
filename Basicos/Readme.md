@@ -14,10 +14,9 @@
 - **[eventos-v5.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/eventos-v5.html)** adiciona um alerta ao precionar teclas no input
 - **[interpolacao.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/interpolacao.html)** demonstra a interpolacão no html em `{{ contador * 2}}`, em`{{ contador > 10 ? 'Maior do que 10': 'Menor que 10'}}` com um if/else implicíto. Pode-se interprepolar expressões de até uma lina
 - **[propriedades-reativas-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v1.html)** adiciona a diretiva `v-model`
-- **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** faz um metodo que diz se  valor do coontador é maior mou enor que 5
-- **[sintaxe-reduzida.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/sintaxe-reduzida.html)** apresenta a substituição do `v-on:` por `@` `v-bind:` por `:`
-- **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** apresenta as propriedades computadas `computed`
+- **[propriedades-reativas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v2.html)** apresenta as propriedades computadas `computed`, e faz um metodo que diz se  valor do coontador é maior mou enor que 5
 - **[propriedades-reativas-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/propriedades-reativas-v3.html)** apresenta a propriedade `watch` e `setTimeout`
+- **[sintaxe-reduzida.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/sintaxe-reduzida.html)** apresenta a substituição do `v-on:` por `@` `v-bind:` por `:`
 - **[template-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v1.html)** faz com que o html utilize o atributo titulo dentro do `<script>` do Vue como padrão e seja o mostrado na pagina.
 - **[template-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v2.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return.
 - **[template-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/Basicos/dom/template-v3.html)** faz com que o html utilize o está dentro do `{{ }}` como saudacao, por meio de um return this.titulo, onde a saudacao acessa o titulo
