@@ -22,6 +22,12 @@
 - Instalçaão do Vue https://br.vuejs.org/v2/guide/installation.html
 - No Computador utilizo o Visual Studio Code https://code.visualstudio.com/;
 
+### Trilha
+**Como segir esse repositório**
+- 1. **[Basicos](https://github.com/TheJessicaBohn/VueJS/tree/master/Basicos)**
+- 2. **[condicoes-e-listas](https://github.com/TheJessicaBohn/VueJS/tree/master/condicoes-e-listas)**
+
+
 
 ### Dicas:
 - A documentação é sua amiga, alguma duvida sobre a escrita? Consulte a documentação;
