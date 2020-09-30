@@ -5,6 +5,10 @@
 - **[condicionais-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/condicionais-v3.html)** coloca-se o `v-if`, sendo adicionado ums template
 - **[condicionais-v4.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/condicionais-v4.html)** apresenta o `v-show`
 - **[listas-v1.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/listas-v1.html)** apresenta a diretiva `v-for`
+- **[listas-v2.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/listas-v2.html)** apresenta a utilização de indices
+- **[listas-v3.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/listas-v3.html)** apresenta a utilização de `v-for` com `<template>`
+- **[listas-v4.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/listas-v4.html)** apresenta a utilização de `v-for` para iteração de objetos, num span
+- **[listas-v5.html:](https://github.com/TheJessicaBohn/VueJS/blob/master/condicoes-e-listas/listas-v5.html)** apresenta a utilização de iteração em uma lista de números
 ### :book: Dicionário
 - `<template>` fuinciona como uma `<div>` mas não teem nenhuma tag dentro do html, quando analisado no console do F12 ele retira o elemento da pagina, quando adicionado a uma diretiva condicional, geralmente usada por questões de segurança quan por exemplo um administrador não está logado
 - `v-for` laço de repetição
@@ -14,3 +18,4 @@
 ### :credit_card: Créditos
 - Lembrando que os códigos são referentes ao curso  https://www.udemy.com/course/vue-js-completo, e essas são atividades desenvolvidas nele.
 
+<button @click="cores.push('branca')">Adicionar</button>
