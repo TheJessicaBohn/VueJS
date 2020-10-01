@@ -70,6 +70,5 @@
 ### :bookmark_tabs: Termos
 - **Diretivas :** são propriedades interpretadas pelo Vue, as mesmas podem ser criadas ou pode-se utilizar as já disponibilizadas pelo framework.
 
-### :credit_card: Créditos
-- Lembrando que os códigos são referentes ao curso  https://www.udemy.com/course/vue-js-completo, e essas são atividades desenvolvidas nele.
+
 

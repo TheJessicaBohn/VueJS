@@ -23,8 +23,7 @@
 
 Termos
 - **Indices:**  Quando trabalhamos com indices sempre temos a seguinte organização (nome,indice)
-### :credit_card: Créditos
-- Lembrando que os códigos são referentes ao curso  https://www.udemy.com/course/vue-js-completo, e essas são atividades desenvolvidas nele.
+
 
 
 
