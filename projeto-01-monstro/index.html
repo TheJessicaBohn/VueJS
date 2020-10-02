@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <title>Matador de Monstro</title>
@@ -6,13 +7,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/vue"></script>
 </head>
+
 <body>
     <div id="app">
-        <div class="panel scores">1</div>
+        <div class="panel scores">
+            <div class="score">
+                <h1>Jogador</h1>
+                <div class="life-bar">
+                    <div class="life"></div>
+                </div>
+                <div>{{playerLife}}%</div>
+            </div>
+            <div class="score">
+                <h1>Monstro</h1>
+                <div class="life-bar">
+                    <div class="life"></div>
+                </div>
+                <div>{{monsterLife}}%</div>
+            </div>
+        </div>
         <div class="panel result">2</div>
         <div class="panel buttons">3</div>
         <div class="panel logs">4</div>
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>
