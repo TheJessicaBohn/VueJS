@@ -2,9 +2,9 @@
 **É um projeto de jogo onde podemos controlar  ataques contra um inimigo tendo a barra de vida do mesmo e do jogador, com varias opções:**
 #### O que o programador vê:
 - Ele contém 3 arquivos sendo: um .html, um .js, e um .css
-  - **[app.js] https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/app.js**, o que executa as ações do jogo
-  - **[index.html]https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/index.html**, é 
-  - **[style.css]https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/style.css**
+  - **[app.js:] https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/app.js**, o que executa as ações do jogo
+  - **[index.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/index.html**, é 
+  - **[style.css:]https://github.com/TheJessicaBohn/VueJS/blob/master/projeto-01-monstro/style.css**
 #### O que o usuário vê:
 
 ### Dicionario
