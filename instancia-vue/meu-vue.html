@@ -1,7 +1,12 @@
 <meta charset="UTF-8">
 
 <div id ="app">
-
+{{nome}} {{sobrenome}}
+ {{1 + 0}}
+ {{5 - 3}}
+ {{9 / 3}}
+ {{ Math.pow(2, 2) }}
+ {{2.5 * 2}}
 </div>
 
 <script>
@@ -20,17 +25,30 @@
 
             })
         }
-
+            //interpolação
+            const regex = /\{\{([\s\w)(,.+-/*]*)\}\}/g
+            this.$el.innerHTML = this.$el.innerHTML.replace(regex, (match,$1) => {
+                const value = this[$1.trim()]
+                return value ? value : eval($1)
+            })
     }
 
     const vm = new MeuVue({
         el: '#app',
         data: {
             nome: 'Maria',
-            Sobrenome: 'Silva'
+            sobrenome: 'Silva'
         }
     })
 
     console.log(vm.nome)
     console.log(vm.$data.nome)
+
+    vm.nome = 'Pedro'
+    console.log(vm.nome)
+    console.log(vm.$data.nome)
+
+    //vm.$data.idade = 31
+    //console.log(vm.idade)
+    // não foi feito o tratamento de idade
 </script>
