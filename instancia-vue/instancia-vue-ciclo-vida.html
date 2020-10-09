@@ -23,19 +23,18 @@
             console.log('Antes de Montar (DOM)')
         },
         mounted(){
-        
+            console.log('DOM Montada')
         },
         beforeUpdate(){
             console.log('Antes de Atualizar')
         },
-        update(){
+        updated(){
             console.log('Atualizado')
         },
         beforeDestroy(){
-            console
+            console.log('Antes de Destruir')
+        }, destroyed(){
+            console.log('Desruído')
         }
-
-
-
     })
 </script>

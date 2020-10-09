@@ -1,4 +1,4 @@
-## Entendendo a instancia Vue
+## Entendendo a instância Vue
 **Manipular a dom é muito mais lento que trabalhar diretamente no JavaScript além disso consegue-se avaliar códigos detectar a diferença de forma muito mais rápida**
 **Se caso existir uma lista com muitos elementos, mas apenas um sofre alteração, não faz sentido remover a lista inteira, e renderizar uma nova lista com todos os elementos novamente**
 **Por isso o Vue faz isso de forma cirúrgica, e otimizada, monitorando as mudanças, funções e eventos, atualizando assim a dom quando for necessário**
@@ -23,9 +23,9 @@
 	- `mounted()`
 	**Nesse caso os métodos acima são chamados apenas uma unica vez na criação da instância
 	- `beforeUpdate()` sempre chamada antes de uma atualização
-	- `update()` sempre chamada durante uma atualização
+	- `updated()` sempre chamada durante uma atualização
 	- `beforeDestroy()`
-	- `destroy()`, depois que o titulo é alterado e clica-se no destruir, o titulo não pode ser mais modificado
+	- `destroyed()`, 
 	
 ### Dicionário:
 - `(match,$1)` representa o grupo de captura do regex
@@ -36,7 +36,8 @@
 - `beforeUpdate()`
 - `const` serve para acessar o Vue externamente
 - `created()`
-- `$destroy()` ele chama os métodos do destroy dentro do ciclo de vida do Vue
+- `$destroy()`  depois que o titulo é alterado e clica-se no destruir, o titulo não pode ser mais modificado
+- `destroyed()`ele chama os métodos do destroy dentro do ciclo de vida do Vue,
 - `$el` contem os elementos da dom obtidos atravez de `document.querySelector`
 - `eval($1)` avalia a sentença a partir do `regex` capturado
 - `get: () =>` vai servir de proxy para a atividade meu-vue, lendo a variável
@@ -47,4 +48,5 @@
 - `regex`  utiliza de  `/\{\{([\s\w+-/*]*)\}}/g` para fazer captura de expressões, e caracteres especias o que está dentro `[]` pode ser modificado e atribuidos novos simbolos matematicos ou espaços e caracteres especias, sen do `g` que é de forma global
 - `set: value => ` altera a variável que veio do get
 - `trim()` retira os espaços em branco das pontas
+- `updated()`
 - `Vue.component('comp',{})` serve para registrar um componente global dentro do Vue
