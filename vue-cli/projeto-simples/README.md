@@ -1,11 +1,11 @@
 # projeto-simples
 ## CLI
-**O CLI já vem com diversos recursos
+- **O CLI já vem com diversos vantagens:**<br>
 	- Ambiente de desenvolvimentos e build já configurados
 	- Todos os componentes são compilados em um unico arquivo
 	- Pré- processamnto, entre outros
 	- A parte do compilador é removida tendo assim uma redução de 30% do tamanho do pacote
-###Recursos:
+### Recursos:
 - Instalação do CLI:
 	- Antes da instalação do do cli entre no Windows Power Shell e verifique como estão as politicas de execução com o comando `Get-ExecutionPolicy` e se retornar `Restricted`
 	- Para obter todas as políticas de execução que afetam a sessão atual e exibi-las em ordem de precedência `Get-ExecutionPolicy -List`
