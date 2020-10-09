@@ -3,9 +3,9 @@
 -**[instancia-vue-externa.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-externa.html)** Acessando externamente uma instancia vue,onde das instancias do exercicio anterior passa a se acessar ou mwsmo passar por uma modificação pelo java script puro como é o caso do setTimeout
 -**[instancia-vue-dados-gerenciados.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-dados-gerenciados.html)** gerenciamento de dados e metodos do vuejs, mostra no console que a novaInfo, por não estar dentro do escopo do vue, não é reativa
 -**[meu-vue.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/meu-vue.html)** apresenta a construção de um mini framework, e como é o funcionamento reativo do get e set pelo vue, além da interpolação
--**[instancia-vue-el-data.html:]]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-el-data.html)** apenas foca no funcinamento do console no próprio console da pagina
--**[instancia-vue-refs.html:]]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-refs.html)** apresentando $refs e uso de templates
-
+-**[instancia-vue-el-data.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-el-data.html)** apenas foca no funcinamento do console no próprio console da pagina
+-**[instancia-vue-refs.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/instancia-vue-refs.html)** apresentando $refs e uso de templates
+-**[montando-instancia-vue.html:]https://github.com/TheJessicaBohn/VueJS/blob/master/instancia-vue/montando-instancia-vue.html)**
 
 
 - `(match,$1)` representa o grupo de captura do regex
