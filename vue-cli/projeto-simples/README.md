@@ -13,30 +13,25 @@
 	- dentro da pasta do projeto pelo terminal de o comando `mkdir vue-cli`
 	- Para entrar na pasta digite `cd vue-cli`
 	- e digite npm install -g @vue/cli para instalar o cli
-	- para criar um novo projeto `vue create projeto-simples` e escolha a opção padrão Default(babel, eslint) e aguarde a instalação das dependências
-
+	- para criar um novo projeto `vue create nome-do-projeto` e escolha a opção padrão Default(babel, eslint) e aguarde a instalação das dependências
+	- entre na pasta `cd nome-do-projeto`
+	- para iniciar o processo de building `npm run serve`
+- Após a instalação pode-se verificar que o .js só roda em memoria 	
+	- Então ` npm run build` gera a pasta dist, compila e mandar para a produção, lembrando que os arquivos gerados no npm não vão para o github, por conta do git ignore então é necessário sempre executar novamente os comandos caso trocar de maquina
 - Adicionar plugins: `vue add @vue/nome-plugin`
-- 
+- Configuração do projeto: `npm install`
+- Compilar e fazer o monitoramento sem precisar dar o refresh`npm run serve`
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
 
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
+### pastas/códigos
+#### vue-cli/projeto-simples
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/vue-cli/projeto-simples/App.vue)** é um arquivo que contém o HTML, Java Script, e CSS contidos nele, gerado na criação do projeto
+#### vue-cli/projeto-plugins
+**Nesse caso o projeto foi criado de modo manual e selecionados os recursos ( Babel, Progressive Web App (PWA) Support, Router, Vuex, CSS Pre-processors, Linter / Formatter) Além do modo history, além disso foi criado um presset chamado curso-vue, que criando um novo projeto ele é uma opção a ser escolhido
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/vue-cli/projeto-plugins/App.vue)**
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

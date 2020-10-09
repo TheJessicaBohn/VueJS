@@ -23,7 +23,7 @@
 - No Computador utilizo o Visual Studio Code https://code.visualstudio.com/;
 - Encontrar fontes especiais https://fonts.google.com/
 
-### Trilha
+### Trilha:
 **Como segir esse repositório**
 - 1. **[Basicos](https://github.com/TheJessicaBohn/VueJS/tree/master/Basicos)**
 - 2. **[condicoes-e-listas](https://github.com/TheJessicaBohn/VueJS/tree/master/condicoes-e-listas)**
@@ -40,6 +40,7 @@
 		- `link:css` e pressionar enter, que ele gera o link com o caminho do css, porém ele sempre coloca o nome padrão de style
 		- `script:src` e pressionar enter, que ele gera o link com o caminho do .js, porém ele sempre coloca o nome padrão de app.js
 		- `div.comp` ele gera `<div class="comp"></div>`
+		- `scaffold` cria a estrutura padrão do vue cli com template, script e style
 
 
 
