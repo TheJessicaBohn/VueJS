@@ -39,6 +39,7 @@
 		- `html:5` e pressionar enter, que ele gera um modelo automaticamente
 		- `link:css` e pressionar enter, que ele gera o link com o caminho do css, porém ele sempre coloca o nome padrão de style
 		- `script:src` e pressionar enter, que ele gera o link com o caminho do .js, porém ele sempre coloca o nome padrão de app.js
+		- `div.comp` ele gera `<div class="comp"></div>`
 
 
 

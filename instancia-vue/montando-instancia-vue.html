@@ -1,27 +1,36 @@
-<meta charset="UTF-8">
-<script src="https://unpkg.com/vue"></script>
+<meta charset="UTF-8" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 <div id="app">
-    <h1 ref="aulaRef">{{ aula }} </h1>
-    <h2> {{ modulo }} </h2>
-    <button @click='alterarAula'>Alterar Aula</button>
-    <button @click='alterarModulo'>Alterar Módulo</button>
+
 </div>
 
+
 <script>
-    const vm = new Vue({
-        el: '#app',
-        data: {
-            aula: 'Aula: Usando Refs',
-            modulo: 'Módulo: instância Vue'
-        },
-        methods: {
-            alterarAula() {
-               this.aula += '#'
-            },
-            alterarModulo() {
-                this.modulo += '#'
-            }
-        }
-    })
+  const vm = new Vue({
+    template:` 
+        <div>
+            <h1>{{ aula }} </h1>
+            <h2> {{ modulo }} </h2>
+            <button @click='alterarAula'>Alterar Aula</button>
+            <button @click='alterarModulo'>Alterar Módulo</button>
+        </div>
+    `    
+        ,
+    data: {
+      aula: 'Aula: Montando instância Vue',
+      modulo: 'Módulo: instância Vue',
+    },
+    methods: {
+      alterarAula() {
+        this.aula += "#";
+      },
+      alterarModulo() {
+        this.modulo += "#";
+      },
+    },
+  });
+ // vm.$mount("#app"); recebe o seletor para podem montar
+ vm.$mount()
+ document.querySelector('#app').appendChild(vm.$el)
 </script>
