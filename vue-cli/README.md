@@ -33,5 +33,12 @@ npm run lint
 #### vue-cli/projeto-plugins
 **Nesse caso o projeto foi criado de modo manual e selecionados os recursos ( Babel, Progressive Web App (PWA) Support, Router, Vuex, CSS Pre-processors, Linter / Formatter) Além do modo history, além disso foi criado um presset chamado curso-vue, que criando um novo projeto ele é uma opção a ser escolhido
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/vue-cli/projeto-plugins/App.vue)**
+#### Pluings
+- A estrutura de plugins oficiais segue a formula: @vue/cli-plugins-algumacoisa, segue alguns padrões oficiais:
+	- @vue/cli-plugins-babel;
+	- @vue/cli-plugins-eslint;
+	- @vue/cli-plugins-pwa;
+- Para adicionar um novo de o seguinte comando :
+	
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
