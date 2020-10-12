@@ -31,11 +31,11 @@
 - `(match,$1)` representa o grupo de captura do regex
 - `.appendChild(vm.$el)`
 - `beforeCreate()` Invoca sincronicamente logo após a instância ser inicializada, antes da observação de dados e configuração de eventos e observadores.
-- `beforeDestroy()`
-- `beforeMount()`
-- `beforeUpdate()`
+- `beforeDestroy()`Invocado logo antes da instância Vue ser destruída. Neste ponto a instância ainda é completamente funcional.
+- `beforeMount()` Invocado logo antes da montagem começar: a função render está prestes a ser invocada pela primeira vez.
+- `beforeUpdate()`Invocado quando os dados mudam, antes do virtual DOM ser re-renderizado e atualizado. Este é um bom local para acessar DOM existente antes de uma atualização, por exemplo, para remover escutas de eventos adicionadas manualmente.
 - `const` serve para acessar o Vue externamente
-- `created()`
+- `created()`Invocado sincronicamente após a instância ser criada. Neste ponto, a instância finalizou o processamento das opções, o que significa que foi configurado: observação de dados, propriedades computadas, métodos, watch/event callbacks. Entretanto, a fase de montagem não foi iniciada, e a propriedade $el não estará disponível ainda.
 - `$destroy()`  depois que o titulo é alterado e clica-se no destruir, o titulo não pode ser mais modificado
 - `destroyed()`ele chama os métodos do destroy dentro do ciclo de vida do Vue,
 - `$el` contem os elementos da dom obtidos atravez de `document.querySelector`
@@ -43,10 +43,15 @@
 - `get: () =>` vai servir de proxy para a atividade meu-vue, lendo a variável
 - `innerHTML- ` serve para a manipulação do HTML
 - `$mount()` monta a instância do vue
-- `mounted()`
+- `mounted()`Invocado logo após a instância ter sido montada, onde el é substituído pelo recém criado vm.$el. Se a instância raiz é montada em um elemento já presente no documento, vm.$el também estará presente no documento quando mounted for invocada.
+
+Observe que o mounted não garante que todos os componentes filhos também já tenham sido montados.
 - `$refs` referencia externa a uma instância
 - `regex`  utiliza de  `/\{\{([\s\w+-/*]*)\}}/g` para fazer captura de expressões, e caracteres especias o que está dentro `[]` pode ser modificado e atribuidos novos simbolos matematicos ou espaços e caracteres especias, sen do `g` que é de forma global
 - `set: value => ` altera a variável que veio do get
 - `trim()` retira os espaços em branco das pontas
 - `updated()`
 - `Vue.component('comp',{})` serve para registrar um componente global dentro do Vue
+
+### Fontes:
+- https://br.vuejs.org/v2/api/
