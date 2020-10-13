@@ -39,7 +39,13 @@
 	- @vue/cli-plugins-pwa;
 - Para adicionar um novo de o seguinte comando :
 	-`vue add electron-builder`, no caso o electron é para a aplicação ser desktop
-	- Para executar `npm run electron: serve`
+- Para executar: `npm run electron:serve`
+- Adicionando vuetify que é Vuetify é uma biblioteca de IU do Vue com componentes de materiais lindamente feitos à mão, não sendo necessária nenhuma habilidade de design.
+	-`vue add vuetify`, pode-se usar o modo Default(recommended)
+### Fontes:
+- https://vuetifyjs.com/
+-	
 	
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
