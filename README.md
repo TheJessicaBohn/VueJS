@@ -48,12 +48,12 @@
   - No JSFiddle por exemplo um `div#app` com tab vira `<div id="app"></div>`, assim como no vscode também tem essa possibilidade
   - `p` tab se torna ```<p> </p> ```
   - Em um projeto completo de HTML pode-se utilizar:
-		- `html:5` e pressionar enter, que ele gera um modelo automaticamente
-		- `link:css` e pressionar enter, que ele gera o link com o caminho do css, porém ele sempre coloca o nome padrão de style
-		- `script:src` e pressionar enter, que ele gera o link com o caminho do .js, porém ele sempre coloca o nome padrão de app.js
-		- `div.comp` ele gera `<div class="comp"></div>`
-		- `scaffold` cria a estrutura padrão do vue cli com template, script e style
-		- `meta[charset]` + enter = `<meta charset="">`
+	- `html:5` e pressionar enter, que ele gera um modelo automaticamente
+	- `link:css` e pressionar enter, que ele gera o link com o caminho do css, porém ele sempre coloca o nome padrão de style
+	- `script:src` e pressionar enter, que ele gera o link com o caminho do .js, porém ele sempre coloca o nome padrão de app.js
+	- `div.comp` ele gera `<div class="comp"></div>`
+	- `scaffold` cria a estrutura padrão do vue cli com template, script e style
+	- `meta[charset]` + enter = `<meta charset="">`
 
 
 
