@@ -24,9 +24,8 @@
 
 
 ### Lints and fixes files
-```
-npm run lint
-```
+`npm run lint`
+
 ### pastas/códigos
 #### vue-cli/projeto-simples
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/vue-cli/projeto-simples/App.vue)** é um arquivo que contém o HTML, Java Script, e CSS contidos nele, gerado na criação do projeto
@@ -39,6 +38,8 @@ npm run lint
 	- @vue/cli-plugins-eslint;
 	- @vue/cli-plugins-pwa;
 - Para adicionar um novo de o seguinte comando :
+	-`vue add electron-builder`, no caso o electron é para a aplicação ser desktop
+	- Para executar `npm run electron: serve`
 	
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
