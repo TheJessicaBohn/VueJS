@@ -42,9 +42,10 @@
 - Para executar: `npm run electron:serve`
 - Adicionando vuetify que é Vuetify é uma biblioteca de IU do Vue com componentes de materiais lindamente feitos à mão, não sendo necessária nenhuma habilidade de design.
 	-`vue add vuetify`, pode-se usar o modo Default(recommended)
+- Para continuar o passo a passo podemos executar o Build:
+	- `npm run electron:build`
 ### Fontes:
 - https://vuetifyjs.com/
--	
 	
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
