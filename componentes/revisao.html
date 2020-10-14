@@ -1,18 +1,29 @@
 <meta charset="UTF-8">
 <script src="https://unpkg.com/vue"></script>
 
-<div id="app"> 
-    <span>{{ contador }}</span>
-    <button @click="contador++">+</button>
-    <button @click="contador--">-</button>
+<div id="app">
+    <contador></contador>
+    <contador></contador>
+    <contador></contador>
 </div>
 
 <script>
-    Vue.component('')
+    //Registro Global
+    Vue.component('contador', {
+        template: ` 
+        <div>
+            <span>{{ contador }}</span>
+            <button @click="contador++">+</button>
+            <button @click="contador--">-</button>
+         </div>`,
+        data() {
+            return {
+                contador: 0
+            }
+        }
+    })
     new Vue({
         el: '#app',
-        data:{
-            contador:0
-        }
+
     })
 </script>
