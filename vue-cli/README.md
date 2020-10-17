@@ -46,7 +46,5 @@
 	- `npm run electron:build`
 ### Fontes:
 - https://vuetifyjs.com/
-	
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- https://cli.vuejs.org/config/
 
