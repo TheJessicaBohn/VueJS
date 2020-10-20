@@ -25,14 +25,14 @@ methods: {
 }
 </script>
 
-<style>
-.contador span {
+<style scoped>
+span {
     border-bottom: 1px solid lightpink ;
     height: 30px;
     padding: 5px 25px;
 }
 
-.contador button {
+button {
     height: 30px;
     width: 30px;
     border-radius: 15px;

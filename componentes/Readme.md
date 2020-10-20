@@ -4,6 +4,7 @@
 - **[componente-registro.html](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-registro.html)** apresenta o uso de registro local na componentização
 
 ### Projetos:
+####componentes/componente-intro/src
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-intro/src/App.vue)**
 	- com o comando  `vue create componente-intro` e selecionando o default vamos criar um novo projeto
 	- entre na pasta criada `cd componente-intro` , e rode o programa `$ npm run serve`
@@ -13,3 +14,10 @@
 - **[Contador.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-intro/src/Contador.vue)**	ele apresenta dois metodos de adicionar e subtrair 
 	- é importante registrar esse componente de forma global então é preciso entrar em `main.js` adicionar uma linha `import Contador from './Contador.vue'`
 - **[Contadores.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-intro/src/Contadores.vue)**	importo a classe Contadores.vue dentro do export default, para utilizar como componente local e Contadores como global
+####componentes/componente-desafio/src
+- entre na pasta pelo comando `cd componente-desafio` 
+- e baixe as dependencias pelo comando `npm i`
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/App.vue)**
+### Dicionario:
+- ` scoped` utilizado dentro de `<style scoped>` faz com que apenas aplique o estilo para a classe onde está o escopo definido, prestar atenção em relação ao que os pais passam para os filhos em uma geração, mas os filhos não passam para os pais
+
