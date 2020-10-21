@@ -18,10 +18,10 @@
 - entre na pasta pelo comando `cd componente-desafio` 
 - e baixe as dependencias pelo comando `npm i`
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/App.vue)** A ideia desse desafio é quebrar o App.vue em varios componentes separados.
-- **[Carousel.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Carousel.vue)**
+- **[Carousel.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Carousel.vue)** trata a rolagem das imagens
 - **[Footer.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Footer.vue)** trata o componente de rodapé
-- **[Menu.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Menu.vue)**
-- **[Toolbar.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Toolbar.vue)**
+- **[Menu.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Menu.vue)** menu da barra lateral
+- **[Toolbar.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/componente-desafio/src/Toolbar.vue)** titulo acima das fotos
 ### Dicionario:
 - ` scoped` utilizado dentro de `<style scoped>` faz com que apenas aplique o estilo para a classe onde está o escopo definido, prestar atenção em relação ao que os pais passam para os filhos em uma geração, mas os filhos não passam para os pais
 
