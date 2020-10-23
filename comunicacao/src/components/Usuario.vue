@@ -2,10 +2,16 @@
   <div class="container">
     <h1>Componente Usuário</h1>
     <p>Esse é um componente muito legal!</p>
+    <p>
+      Nome é <strong>{{ nome }}</strong>
+    </p>
     <button @click="alterarNome">Alterar Nome</button>
     <hr />
     <div class="componentes">
-      <bla-bla v-bind:nome="nome"/>
+      <bla-bla 
+      v-bind:nome="nome"
+      @nomeMudou="nome = $event.novo + $event.antigo" 
+      :reiniciarFn="reiniciarNome"/>
       <bla-bla />
       <app-usuario-editar />
     </div>
@@ -20,13 +26,16 @@ export default {
   components: { BlaBla, AppUsuarioEditar },
   data() {
     return {
-      nome: "Andre",
+      nome: 'Andre',
     };
   },
   methods: {
     alterarNome() {
-        this.nome = 'Jessica'
+      this.nome = 'Jessica';
     },
+    reiniciarNome() {
+      this.nome = 'Andre';
+    }
   },
 };
 </script>
