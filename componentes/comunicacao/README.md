@@ -4,7 +4,7 @@
 - `npm i` instalção doas depedencias dos pacotes
 - `npm run serve` executar o programa, lembrando que ele fica na porta http://localhost:8080/
 
-### Pastas/código
+### Pasta/Código
 ** comunicacao/src**
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/comunicacao/src/App.vue)** controlador principal dos outros componentes
 ** comunicacao/src/components**
