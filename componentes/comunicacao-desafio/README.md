@@ -8,6 +8,6 @@
 
 ### Pasta/Código
 -  **[App.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/comunicacao-desafio/src/App.vue)** faz referência para **UsuarioDetalhe** e **UsuarioLista** que recebe um array de parametros e preenche os dados da tabela 
--  **[barramento.js](https://github.com/TheJessicaBohn/VueJS/tree/master/comunicacao-desafio/src/barramento.js)**
--  **[UsuarioDetalhe.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/comunicacao-desafio/src/components/UsuarioDetalhe.vue)**
--  **[UsuarioLista.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/comunicacao-desafio/src/components/UsuarioLista.vue)**
+-  **[barramento.js](https://github.com/TheJessicaBohn/VueJS/tree/master/comunicacao-desafio/src/barramento.js)** faz a igação entre irmãos
+-  **[UsuarioDetalhe.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/comunicacao-desafio/src/components/UsuarioDetalhe.vue)** componente caixa
+-  **[UsuarioLista.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/componentes/comunicacao-desafio/src/components/UsuarioLista.vue)** componente lista
