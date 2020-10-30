@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <h1>Tarefas</h1>
+    <NewTask/>
 	<TaskGrid :tasks="tasks"/>
 
   </div>
 </template>
 
 <script>
+import NewTask from './components/NewTask.vue'
 import TaskGrid from './components/TaskGrid.vue'
 export default {
-	components: {TaskGrid},
+	components: {NewTask, TaskGrid},
 	data(){
 		return{
 		tasks: [
