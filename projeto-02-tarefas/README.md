@@ -10,7 +10,7 @@
 - **[TaskGrid.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/projeto-02-tarefas/src/components/TaskGrid.vue)** componente que contem a lista de tarefas, além de ser o componente pai de Task
 - **[Task.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/projeto-02-tarefas/src/components/Task.vue)** componente que representa cada taref individualmente
 - **[NewTask.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/projeto-02-tarefas/src/components/NewTask.vue)** componente input para adicionar novas tarefas
-- **[TaskProgress.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/projeto-02-tarefas/src/components/TaskProgress.vue)**
+- **[TasksProgress.vue](https://github.com/TheJessicaBohn/VueJS/tree/master/projeto-02-tarefas/src/components/TasksProgress.vue)**
 ## Dicionário
 - `cursor: pointer;` faz o cursor ser uma mãozinha
 - `user-select: none;` não deixa o usuário selecionar o texto
