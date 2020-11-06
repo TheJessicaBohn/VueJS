@@ -13,5 +13,8 @@
 - `.trim` tira os espaços em branco das pontas que iriam para o backend
 - `value=""` não inicializa dentro de textarea, mas pode ser inicializado dentro da tag
 - `white-space: pre;` preserva os espaços em branco
+- quando se usa mais de um `type="radio"` e se passa o mesmo valor para todos, o mesmo intende que apenas um deve ser selecionado
+
 ###
+
 

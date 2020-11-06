@@ -20,19 +20,29 @@ teste</textarea
         </Rotulo>
         <Rotulo nome="Características do Problema">
           <span class="mr-4"
-            ><input type="checkbox"  v-model="caractristicas"	
-				value="reproduzivel" /> Reproduzível</span>
+            ><input
+              type="checkbox"
+              v-model="caracteristicas"
+              value="reproduzivel"
+            />
+            Reproduzível</span
+          >
           <span
-            ><input type="checkbox" v-model="caractristicas"
-				value="intermitente" /> Intermitente</span>
+            ><input
+              type="checkbox"
+              v-model="caracteristicas"
+              value="intermitente"
+            />
+            Intermitente</span
+          >
         </Rotulo>
         <Rotulo nome="Qual produto?">
-          <span class="mr-4"><input type="radio" /> Web</span>
-          <span class="mr-4"><input type="radio" /> Mobile</span>
-          <span><input type="radio" /> Outro</span>
+          <span class="mr-4"><input type="radio" value="Web" v-model="produto" /> Web</span>
+          <span class="mr-4"><input type="radio" value="Mobile" v-model="produto" /> Mobile</span>
+          <span><input type="radio" value="Outros" v-model="produto" /> Outro</span>
         </Rotulo>
         <Rotulo nome="Prioridade">
-          <select name="" id="">
+          <select>
             <option></option>
           </select>
         </Rotulo>
@@ -56,18 +66,15 @@ teste</textarea
         <Rotulo nome="Mensagem">
           <span style="white-space: pre">{{ mensagem }}</span>
         </Rotulo>
-		<Rotulo nome="Caracteristicas do Problema">
+        <Rotulo nome="Caracteristicas do Problema">
           <span>
-			  <ul>
-				  <li v-for="c in caracteristicas" :key="c">{{ c }}</li>
-			  </ul>
-		  </span>
-        </Rotulo>
-        <Rotulo nome="Marque as Opções">
-          <span>???</span>
+            <ul>
+                <li v-for="c in caracteristicas" :key="c"> {{ c }} </li>
+            </ul>
+          </span>
         </Rotulo>
         <Rotulo nome="Qual produto?">
-          <span>???</span>
+          <span>{{produto}}</span>
         </Rotulo>
         <Rotulo nome="Prioridade">
           <span>???</span>
@@ -97,6 +104,12 @@ export default {
     return {
       mensagem: "",
       caracteristicas: [],
+      prioridades:[
+          {codigo:1, nome:'Baixa'},
+          {codigo:2, nome:'Média'},
+          {codigo:3, nome:'Alta'},
+      ],
+      produto: 'web',
       usuario: {
         email: "",
         senha: "",
