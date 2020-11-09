@@ -1,29 +1,11 @@
-# formulario-final
+# formulario-desafio
 
-## Project setup
-```
-npm install
-```
+## Configuração do Projeto
+- `npm i`
+- `npm run serve`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-desafio/src/App.vue)** Trata os campo de texto e checkbox, exceto nome e sobrenome
+- **[NomeCompleto.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-desafio/src/components/NomeCompleto.vue)** trata os campos nome e sobrenome
+- **[Rotulo.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-desafio/src/components/Rotulo.vue)** cuida da identificação dos rótulos trados em **App.vue**
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
