@@ -37,17 +37,31 @@ teste</textarea
           >
         </Rotulo>
         <Rotulo nome="Qual produto?">
-          <span class="mr-4"><input type="radio" value="Web" v-model="produto" /> Web</span>
-          <span class="mr-4"><input type="radio" value="Mobile" v-model="produto" /> Mobile</span>
-          <span><input type="radio" value="Outros" v-model="produto" /> Outro</span>
+          <span class="mr-4"
+            ><input type="radio" value="Web" v-model="produto" /> Web</span
+          >
+          <span class="mr-4"
+            ><input type="radio" value="Mobile" v-model="produto" />
+            Mobile</span
+          >
+          <span
+            ><input type="radio" value="Outros" v-model="produto" /> Outro</span
+          >
         </Rotulo>
         <Rotulo nome="Prioridade">
-          <select>
-            <option></option>
+          <select v-model="prioridade">
+            <option
+              v-for="prioridade in prioridades"
+              :value="prioridade.codigo"
+              :key="prioridade.codigo"
+              :selected="prioridade.codigo === 2"
+            >
+              {{ prioridade.nome }}
+            </option>
           </select>
         </Rotulo>
         <Rotulo nome="Primeira Reclamação?">
-          <Escolha />
+          <Escolha v-model="escolha" />
         </Rotulo>
         <hr />
         <button>Enviar</button>
@@ -69,18 +83,18 @@ teste</textarea
         <Rotulo nome="Caracteristicas do Problema">
           <span>
             <ul>
-                <li v-for="c in caracteristicas" :key="c"> {{ c }} </li>
+              <li v-for="c in caracteristicas" :key="c">{{ c }}</li>
             </ul>
           </span>
         </Rotulo>
         <Rotulo nome="Qual produto?">
-          <span>{{produto}}</span>
+          <span>{{ produto }}</span>
         </Rotulo>
         <Rotulo nome="Prioridade">
-          <span>???</span>
+          <span>{{ prioridade }}</span>
         </Rotulo>
         <Rotulo nome="Primeira Reclamação?">
-          <span>???</span>
+          <span>{{ escolha }}</span>
         </Rotulo>
       </div>
     </div>
@@ -104,17 +118,19 @@ export default {
     return {
       mensagem: "",
       caracteristicas: [],
-      prioridades:[
-          {codigo:1, nome:'Baixa'},
-          {codigo:2, nome:'Média'},
-          {codigo:3, nome:'Alta'},
+      prioridade: 1,
+      prioridades: [
+        { codigo: 1, nome: "Baixa" },
+        { codigo: 2, nome: "Média" },
+        { codigo: 3, nome: "Alta" },
       ],
-      produto: 'web',
+      produto: "web",
       usuario: {
         email: "",
         senha: "",
         idade: "",
       },
+      escolha: true,
     };
   },
 };
