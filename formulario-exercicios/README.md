@@ -6,7 +6,8 @@
 
 ### :scroll: Pastas/Códigos:
 - **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-exercicios/src/App.vue)** cuida de E-mail, Senha, Idade, Mensagem, Caracteristicas do Problema, Qual produto? e Prioridade.
-- **[Escolha.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-exercicios/src/components/Escolha.vue)** a escolha modificada dentro de **App.vue** não aceita `v-model` por padrão, então ela é modificada por `props` 
+- **[Escolha.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-exercicios/src/components/Escolha.vue)** a escolha modificada dentro de **App.vue** não aceita `v-model` por padrão, então ela é modificada por `props` o botão radio
+- **[Rotulo.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/formulario-exercicios/src/components/Rotulo.vue)** cuida do componente rótulo de cada item de **App.vue**
 ### Dicionário
 - `.lazy` só atualiza o campo quando sai do mesmo, e não enquanto digita
 - `.number` faz com que o valor recebido seja convertido em numerico, dede que seja um numero valido tanto int quanto float
