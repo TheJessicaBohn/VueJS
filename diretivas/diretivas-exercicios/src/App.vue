@@ -1,6 +1,9 @@
 <template>
 	<div id="app">
 		<h1>Diretivas</h1>
+		<hr>
+		<p v-text="'Usando diretiva <strong>v-text</strong>'"></p>
+		<p v-html="'Usando diretiva <strong>v-html</strong>'"></p>
 	</div>
 </template>
 

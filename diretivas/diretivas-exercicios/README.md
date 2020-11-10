@@ -1,29 +1,6 @@
 # diretivas-exercicios
 
-## Project setup
-```
-npm install
-```
+v-text="'a'" espera uma string
+v-html="'a'"  interpreta a tag <strong></strong>
+em main.js pode-se criar uma diretiva personalizada com Vue.directive('destaque',{})
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
