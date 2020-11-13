@@ -1,8 +1,11 @@
 # diretivas-exercicios
 
+## Dicionério
+- anatomia da diretiva personalizada `<p v-teste :argumento.modificador1.modificador2.modificador3 = "'valor'"></p>`
 - `v-text="'a'"` espera uma string
 - `v-html="'a'"`  interpreta a tag `<strong></strong>`
 - em main.js pode-se criar uma diretiva personalizada com `Vue.directive('destaque',{})`
+- `directives: {}` cria uma diretiva localno caso de App.vue
 
 ## Gatilhos (Hooks)
 	- `el` é o elemento onde a diretiva está interligada e  é o unico que deve ser alterado, enquanto os outros devem ser tratados como somene leitura e nunca modifica-los;
