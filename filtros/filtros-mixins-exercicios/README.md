@@ -1,29 +1,7 @@
-# diretivas-exercicios
+# Filtros e Mixins
+- Filtros: São transformações que podem ser feitas em cima de valores e propriedades computadas  
+- Mixins: São tecnicas de reuso baseadas em composição 
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/App.vue)** 
+``
