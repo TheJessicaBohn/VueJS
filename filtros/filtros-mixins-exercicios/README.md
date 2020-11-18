@@ -5,8 +5,10 @@
 
 ## Project setup
 
-- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/App.vue)** cuida dos filtros junto com **[main.js](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/main.js)**
-- **[Frutas.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/Frutas.vue)**
+- **[App.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/App.vue)** cuida dos filtros junto com **[main.js](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/main.js)**, que recebeu um mixin global
+- **[Frutas.vue](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/Frutas.vue)** apresenta um exemplo de filtro
+- **[frutasMixin.js](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/frutasMixin.js)** e  **[usuarioMixin.js](https://github.com/TheJessicaBohn/VueJS/blob/master/filtros/filtros-mixins-exercicios/src/usuarioMixin.js)** foram duas classes criadas com exemplo de mixins
+
 ##Dicionário
 -`.split('')` pega cada um dos caracteres da string e coloca dentro de um array 
 -`arr.splice(3,0,'.')` adiciona na terceira posição, não remove nenhum elemento e coloca um ponto

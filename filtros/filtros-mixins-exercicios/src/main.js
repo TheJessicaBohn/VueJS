@@ -7,7 +7,11 @@ Vue.filter('inverter',function(valor){
 	return valor.split('').reverse().join('')
 })
 
-Vue.mixin
+Vue.mixin({
+	created(){
+	console.log('created mixin global')
+	}
+})
 
 new Vue({
 	render: h => h(App)
