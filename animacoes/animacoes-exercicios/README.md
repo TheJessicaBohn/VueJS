@@ -37,6 +37,7 @@
 	- `leave-cancelled` cancelada
 
 `<transitions-group>`
+- Serve para animar um grupo de elementos
 - A tag do `<transitions>` não gera nenhuma tag no html final, diferente da tag`<transitions-group>` que gera uma tag `<span>`
 
 
