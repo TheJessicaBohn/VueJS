@@ -4,6 +4,7 @@
 ### src/store
 -**[store.js](src/store/store.js)**
 - **Getter**(dentro da classe store) trata a lista de produtos calcula o total e retorna o total previamente calculadodeixando o calulo concentrado. Retorna a informação da store, para os filhos lerem a informação
+- mutation pode ser usado pelo neto para alterar o dano na história, pelo metodo chamado commit
 ### src/components
 - Cada caminho  descrito a seguir cuida de um componente como mesmo nome ta tela no navegador
 -**[Carrinho.vue](src/components/Carrinho.vue)**
