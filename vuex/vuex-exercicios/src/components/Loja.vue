@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import {mapMutations} from 'vuex'
 
 export default {
     data() {
@@ -20,6 +21,7 @@ export default {
             preco: 9.99,
         }
     },
+    ...mapMutations(['adicionarProduto']),
     methods: {
         adicionar() {
             const produto = {
@@ -29,7 +31,10 @@ export default {
                 preco: this.preco
             }
             this.sequencia++
-            this.$store.state.produtos.push(produto)
+            //this.$store.state.produtos.push(produto)
+            //this.$store.commit('adicionarProduto', produto)
+            this.adicionarProduto(produto)
+
         }
     }
 }
