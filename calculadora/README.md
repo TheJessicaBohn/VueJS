@@ -6,6 +6,7 @@
 - Criar as classes das divs com o mesmo nome da classe vue `.nomeclasse`
 - Arquivos .vue iniciados com letra maiúscula e .js com letra minúscula
 
+## Configurar Projeto
 - Criar pasta calculadora
 - Instalar o vue-cli: `npm i -g @vue/cli`
 - `vue create calculator` escolher a versão padrão
