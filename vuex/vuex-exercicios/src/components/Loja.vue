@@ -11,17 +11,26 @@
 </template>
 
 <script>
-import {mapMutations} from 'vuex'
+import {mapActions} from 'vuex'
 
 export default {
     data() {
         return {
-            sequencia: 1,
-            quantidade: 1,
-            preco: 9.99,
+            sequencia: 1,   
         }
     },
-    ...mapMutations(['adicionarProduto']),
+    computed:{
+        quantidade(){
+            return this.$store.state.parametros.quantidade
+        },
+        preco(){
+            return this.$store.state.parametros.preco
+        }
+    },
+    ...mapActions(['adicionarProduto']),
+    // adicionarProduto(produto){
+    //     this.$store.dispatch('adicionaProduto',)
+    // }, função que seria criada caso  o dispatch  não fosse chamado de outra forma
     methods: {
         adicionar() {
             const produto = {
@@ -33,8 +42,8 @@ export default {
             this.sequencia++
             //this.$store.state.produtos.push(produto)
             //this.$store.commit('adicionarProduto', produto)
-            this.adicionarProduto(produto)
-
+            //this.adicionarProduto(produto)
+            this.$store.dispatch('adicionarProduto', produto)
         }
     }
 }

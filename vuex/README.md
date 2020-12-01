@@ -8,7 +8,7 @@
     - state -> Objeto que representa um estado compartilhado; 
     - Getters -> funções que lêem o estado e eventualmente fazer algum tipo de processamento;
     - Mutations ->(setters) funções responsáveis por alterar o estado global da aplicação (estado compartilhado);
-    - Actions -> 
+    - Actions -> Intermediario entre um nó neto/filho e uma mutatio, fazendo o commit, pelo dispatch disparado pelo componente, sendo assim uma diferença apenas uma situação de organização(Actions: regras, Mutations: efetivação da modificação), pois a mutation apenas faz o commit para alterar o estado, e a action é um local que se pode colocar regras ( mais voltadas para o negócio da aplicação) para as mudanças do estado central. Além disso apesar das Mutations trabalharemd e forma assincrona, só deve-se colocar código sincrono, já nas Actions pode-se colocar regras assincronas como por exemplo Ajax.
         - commit: quando vai de fato efetivar uma alteração 
         - dispatch: disparar um action.
 ## Instalação

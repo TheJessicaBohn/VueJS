@@ -12,7 +12,7 @@
 import { mapGetters } from 'vuex'
 export default {
     computed:  mapGetters ({
-        total: 'valorTotaal'
+        total: 'valorTotal'
          }),
     //computed: mapGetters (['valorTotal'])
     // computed: {
