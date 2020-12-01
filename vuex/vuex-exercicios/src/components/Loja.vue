@@ -43,7 +43,10 @@ export default {
             //this.$store.state.produtos.push(produto)
             //this.$store.commit('adicionarProduto', produto)
             //this.adicionarProduto(produto)
-            this.$store.dispatch('adicionarProduto', produto)
+            this.$store.dispatch('adicionarProduto', produto),
+
+            console.log(this.$store.getters.getNome),
+            console.log(this.$store.getters.getNomeCompleto)
         }
     }
 }
